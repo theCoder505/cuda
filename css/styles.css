@@ -1,0 +1,496 @@
+*{margin:0; padding: 0; 
+    font-family: 'Titillium Web', sans-serif;}
+body ul li{
+    list-style: none;
+}
+a{text-decoration: none;}
+
+
+/*header design starts*/
+.header-area{
+    background-color:#87509c ;
+}
+
+.middle-area{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
+.header-top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.main-menu{
+    width: 70%;
+    float: left;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.main-menu ul li{
+    float: left;
+}
+.main-menu ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul a{
+    margin-left: 10px;
+    padding: 5px 20px;
+    display: block;
+    color: #f7f3ea;
+    font-size: 13.4px;
+
+}
+.main-menu ul a:hover, .activehome{
+    background-color:#744489 ;
+}
+
+.header-bottom{
+    text-align: center;
+    margin: 60px;
+    margin-top: 70px;
+    color: #f7f3ea;
+}
+
+.call-to-action-header a {
+    background-color: #eb7d4b;
+    padding: 8px 40px;
+    font-size: 13.4px;
+    color: #f7f3ea;
+    border-bottom: 3px solid #c86a40;
+}
+.call-to-action-header{
+    margin-top: 55px;
+}
+.call-to-action-header a:hover{
+    background-color: #fa5102;
+}
+
+/*header ends and services starts here */
+
+.services{
+    background-color: #17c2a4;
+}
+.serviceContainer{
+    padding: 150px 0;
+}
+.serviceWritings{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.serviceWritings h5{
+    color: #def4ef;
+}
+
+.serviceWritings hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #14a58c;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.serviceImages{
+    
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.imaging{
+    width: 24%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.imaging h3{
+    color: #e8f7f4;
+}
+.imaging h5{
+    color: #def4ef;
+}
+/*services ends and team starts here */
+
+.team{
+    background-color: #e7f1f8;
+}
+.teamContainer{
+    padding: 70px 0;
+}
+.teamWritings{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #3c4761;
+}
+
+.teamWritings h5{
+    color: #5d677b;
+}
+
+.teamWritings hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #c8d9e5;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.teamImages{
+    
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
+/*skills starts*/
+
+
+.imaging2{
+    width: 24%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.imaging2 h3{
+    color: #3c4761;
+}
+.imaging2 h5{
+    color: #5d677b;
+}
+.imaging2 h6{
+    color: blue;
+}
+
+.mainImage {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.imaging2 ul{
+    
+margin: auto;
+}
+  .imaging2 ul li{
+display: inline-block;
+margin-left: 5px;
+background-color: #bdd1df;
+padding: 8px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+  }
+
+  .imaging2 ul li a i{
+      color: #ffffff;
+  }
+
+  /*team ends and skills starts here */
+
+
+.skill{
+background: #ffffff;
+}
+.skill hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #dfe8ed;
+    margin-top: 8px;
+    margin-bottom: 8px;
+         }
+
+.skill h5{
+    color: #3c4761;
+}
+  .skillwritings{
+      text-align: center;
+      padding: 50px 0;
+      color: #3c4761;
+  }
+
+  .skillPercentage{
+      width: 80%;
+      margin: auto;
+      margin-bottom: 80px;
+
+  }
+
+.skillImage{
+    width: 22%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+.skillImage img{
+    float: right;
+}
+
+/*portfolio part*/
+
+.portfolio{
+    background-color: #ffdd99;
+    padding: 50px 0;
+text-align: center;
+}
+
+.portwritings h2{
+    color: #393939;
+}
+.portwritings h5{
+    color: #393939;
+}
+.portwritings hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #e5c37f;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.portwritings ul{
+    margin: 30px 0;
+}
+.portwritings ul li{
+    margin: auto;
+   display: inline-block;
+   padding: 5px 20px;
+   margin-right: 10px;
+   background-color: #ebc985;
+}
+
+.portwritings ul li a{
+    color: #393939;
+
+}
+.portwritings ul li:hover, .portwritings ul li:first-child{
+    background-color: #ffffff;
+}
+.portImagePart{
+    padding: 50px 0;
+    margin: auto;
+    width: 80%;
+}
+
+.Image{
+    width: 45%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.Image img{
+    width: 100%;
+}
+
+
+.call-to-action-header2 a {
+    background-color: #17c2a4;
+    padding: 12px 30px;
+    font-size: 13.4px;
+    color: #f7f3ea;
+    border-bottom: 3px solid #14a58c;
+}
+.call-to-action-header2{
+    margin-bottom: 50px;
+}
+.call-to-action-header2 a:hover{
+    background-color: #06f0e4;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*about starts here*/
+
+
+.about{
+    background-color: #d74680;
+    padding-top: 50px;
+}
+
+.aboutwritings h2{
+    color: #ffffff;
+    text-align: center;
+}
+.aboutwritings h5{
+    color: #f7dfe7;
+    text-align: center;
+}
+.aboutwritings hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #b73c6d;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.aboutImages{
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.imagewriting{
+    width: 45%;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.aboutwritings q{
+    color: #f7dfe7;
+    text-align: center;
+    font-style: italic;
+}
+.aboutwritings h3{
+    color: #f7dfe7;
+}
+
+.aboutwritings h6{
+    color: #ffdd99;
+}
+
+.circlrImage {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.circlrImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.writingimage{
+    margin-left: 20px;
+    float: left;
+    line-height: 1.5rem;
+}
+
+/*contacts starts*/
+.contact{
+    padding: 80px 0;
+    background-color: #3c5499;
+    text-align: center;
+    color: #ffffff;
+}
+.contactWritings{
+    width: 60%;
+    margin: auto;
+}
+.contactWritings hr{
+    width: 5%;
+    margin: auto;
+    border: 1.5px solid #273a71;
+    margin-top: 8px;
+    margin-bottom: 8px;   
+}
+.contactWritings h5{
+    color: #f5f6f9;
+}
+.forms{
+    padding-top: 50px;
+}
+
+#name{
+    width: 47%;
+    float: left;
+    background: #273a71;
+    padding: 10px 5px;
+    border: 1px solid transparent;
+}
+#email{
+    width: 47%;
+    float: right;
+    background: #273a71;
+    padding: 10px 5px;
+    border: 1px solid transparent;
+}
+
+#message{
+    width: 97%;
+    margin: 20px 0;
+    background: #273a71;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+}
+
+.forms input {
+    color: #ffffff;
+}
+
+.call-to-action-header3 input {
+    background-color: #17c2a4;
+    padding: 12px 30px;
+    font-size: 13.4px;
+    color: #f7f3ea;
+    border: 2px solid #17c2a4;
+    border-bottom: 3px solid #14a58c;
+}
+.call-to-action-header3{
+    margin-top: 50px;
+}
+.call-to-action-header3 input:hover{
+    background-color: #06f0e4;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    color: #ffffff;
+}
+
+
+footer{
+    background-color: #344b8e;
+    padding: 20px 0;
+}
+
+.lastfooter{
+    width: 70%;
+    margin: auto;
+}
+
+.lastfooter ul{
+   width: 100%;
+    color: white;
+}
+
+.lastfooter ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin: 10px;
+}
+.lastfooter ul li a{
+    color: #ffffff;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastfooter ul li:hover a, .lastfooter ul li .activate{
+    color: #30bae7;
+}
+
+
+
+/*
+here the psd to html is done!!! tgffvqs 
+    */
